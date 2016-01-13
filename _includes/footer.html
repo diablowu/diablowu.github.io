@@ -1,38 +1,43 @@
-<footer class="site-footer">
 
-  <div class="wrapper">
+<footer class="footer">
+  <div class="container">
+    <ul class="icons">
+      <li>
+        <a href="{{ site.author.github }}" class="icon-github" target="_blank">
+          <i class="fa fa-github"></i>
+        </a>
+      </li>
+      <li>
+        <a href="{{ site.author.facebook }}" class="icon-facebook" target="_blank">
+          <i class="fa fa-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a href="{{ site.author.twitter }}" class="icon-twitter" target="_blank">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a href="{{ site.author.instagram }}" class="icon-instagram" target="_blank">
+          <i class="fa fa-instagram"></i>
+        </a>
+      </li>
+      <li>
+        <a href="{{ site.author.linkedin }}" class="icon-linkedin" target="_blank">
+          <i class="fa fa-linkedin"></i>
+        </a>
+      </li>
+    </ul>
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+    <small class="clearfix">
+      再次骄傲地使用<a href="http://jekyllrb.com" target="_blank">Jekyll</a>构建
+    </small>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
+    <small class="clearfix">
+      感谢<a target="_blank" href="https://github.com/nandomoreirame">Fernando Moreira</a>提供的模板
+    </small>    
 
   </div>
-
 </footer>
+
+<a class="scroll-up fa fa-chevron-up bounce" href="#" data-position="0"></a>
