@@ -1,0 +1,61 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: 我是大菠萝
+email: wubo19842008@gmail.com
+description: &des "我是一个混在IT圈有点艺术气质的文艺酷爸爸，疯狂的NFL铁粉，绿湾包装工的奶酪头"
+meta_description: *des
+meta_keywords: "technology, nfl, docker, nodejs, python, java, raspberrypi, angularjs, arduino"
+url:
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+permalink: "/:categories/:title/"
+highlighter: pygments
+markdown: kramdown
+excerpt_separator: <!--more-->
+
+# paginate
+paginate: 2
+paginate_path: "/page/:num"
+
+# kramdown config
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+
+# 侧边栏背景图
+sidebg: "http://dbimg.u.qiniudn.com/img/ningmeng.jpg"
+owner:
+  name: Diablo Wu
+  avatar: "http://www.gravatar.com/avatar/ff39a8987dc515c069b7bb8127dccde6.jpg?s=500"
+  job: "JAVA & Node & Python & Geek"
+  bio: "Talk is cheap. Show me the code."
+  email: wubo19842008@gmail.com
+  twitter: diablowu
+  github: diablowu
+  linkedin: diablowu
+  weibo: iamdiablo
+  weixin: iamdiablo
+
+
+# host server
+host: "0.0.0.0"
+
+# 七牛云存储配置
+qnimgurl: http://dbimg.u.qiniudn.com/img/
+qnfileurl: http://dbimg.u.qiniudn.com/file/

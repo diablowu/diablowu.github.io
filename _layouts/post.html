@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+{% if page.image.feature %}
+<div class="post-image-feature">
+  <img class="feature-image" src=
+  {% if post.image.feature contains 'http' %}
+  "{{ page.image.feature }}"
+  {% else %}
+  "{{ site.url }}/img/{{ page.image.feature }}"
+  {% endif %}
+  alt="{{ page.title }} feature image">
+
+  {% if page.image.credit %}
+  <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+  {% endif %}
+</div><!-- /.image-wrap -->
+{% endif %}
+
+<div class="container">
+  <div id="post">
+    <header class="post-header">
+      <h2 title="{{ page.title }}">{{ page.title }}</h2>
+      <span class="post-meta">
+        <span class="post-date">
+          {{ page.date | date: "%-d %b %Y" | upcase }}
+        </span>
+        •
+        {% include read_time.html %}
+      </span>
+
+    </header>
+
+    <article class="post-content">
+      {{ content }}
+    </article>
+  </div>
+
+  
+
+
+</div>
