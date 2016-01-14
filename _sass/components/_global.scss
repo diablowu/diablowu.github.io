@@ -53,7 +53,7 @@ table {
     }
   }
   &.highlight > tbody > tr {
-    @include transition(background-color .25s ease);
+    // @include transition(background-color .25s ease);
     &:hover {
       background-color: $table-striped-color;
     }
