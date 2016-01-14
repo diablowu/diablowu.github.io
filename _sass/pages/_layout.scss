@@ -10,6 +10,9 @@
   @include media-query($small-screen) {
     background-position: center;
     padding: 30px 50px;
+    -webkit-transform:translateZ(0);
+    transform:translateZ(0);
+    z-index: 0;
   }
   @include media-query($medium-screen) {
     background-image: url("http://dbimg.u.qiniudn.com/img/sidebar-bg.jpg");

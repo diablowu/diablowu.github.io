@@ -215,11 +215,11 @@ text-shadow: $shadow; }
  */
 
 @mixin transition($transition) {
-  // -webkit-transition: $transition;
-  // -moz-transition: $transition;
-  // -ms-transition: $transition;
-  // -o-transition: $transition;
-  // transition: $transition;
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -ms-transition: $transition;
+  -o-transition: $transition;
+  transition: $transition;
 }
 
 /**
@@ -227,25 +227,25 @@ text-shadow: $shadow; }
  */
 
 @mixin translate($x: 0, $y: 0) {
-  // -webkit-transform: translate($x, $y);
-  // -moz-transform: translate($x, $y);
-  // -ms-transform: translate($x, $y);
-  // -o-transform: translate($x, $y);
-  // transform: translate($x, $y);
+  -webkit-transform: translate($x, $y);
+  -moz-transform: translate($x, $y);
+  -ms-transform: translate($x, $y);
+  -o-transform: translate($x, $y);
+  transform: translate($x, $y);
 }
 
 @mixin translate3d($x: 0, $y: 0, $z: 0) {
-  // -webkit-transform: translate($x, $y, $z);
-  // -moz-transform: translate($x, $y, $z);
-  // -ms-transform: translate($x, $y, $z);
-  // -o-transform: translate($x, $y, $z);
-  // transform: translate($x, $y, $z);
+  -webkit-transform: translate($x, $y, $z);
+  -moz-transform: translate($x, $y, $z);
+  -ms-transform: translate($x, $y, $z);
+  -o-transform: translate($x, $y, $z);
+  transform: translate($x, $y, $z);
 }
 
 @mixin animation($name, $duration: 300ms, $delay: 0, $ease: ease) {
-  // -webkit-animation: $name $duration $delay $ease;
-  // -moz-animation:    $name $duration $delay $ease;
-  // -ms-animation:     $name $duration $delay $ease;
+  -webkit-animation: $name $duration $delay $ease;
+  -moz-animation:    $name $duration $delay $ease;
+  -ms-animation:     $name $duration $delay $ease;
 }
 
 
