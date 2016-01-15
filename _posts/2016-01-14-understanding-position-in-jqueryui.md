@@ -17,8 +17,6 @@ jqueryui的position提供一个方便的元素对齐方案，而且不依赖jque
 
 
 <!--more-->
-# 用法
-
 
     $.(".selector").position({/*定位参数*/});
 
@@ -27,43 +25,36 @@ jqueryui的position提供一个方便的元素对齐方案，而且不依赖jque
 
 ### my
 
-default: <code>"center"</code>
+被定位的元素使用自身哪个位置进行参照，default: center
 
-被定位的元素使用自身哪个位置进行参照，可使用的值是：
-
-"top", "center", "bottom", "left", "right"，以及组合例如右上 top right
+>"top", "center", "bottom", "left", "right"，以及组合例如右上 top right
 
 还可以指定附加的偏移量，使用百分比或者像素，例如：
 
-"right+10 top-25%"
+    "right+10 top-25%"
 
-<strong>1.2 of</strong>
+### of
 
-向哪个元素定位或者对齐，可以是一个selector、element、jquery element或者一个event，如果使用event对象，则<code>pageX</code> and <code>pageY将会被使用，作为当前定位参照</code>
+向哪个元素定位或者对齐，可以是一个selector、element、jquery element或者一个event，如果使用event对象，则pageX and pageY将会被使用，作为当前定位参照
 
-<strong>1.3 at</strong>
+### at
 
-相对of元素，与其哪个位置进行定位活对齐。
+相对of元素，与其哪个位置进行定位活对齐。default: center
 
-default: <code>"center"</code>
 
-"top", "center", "bottom", "left", "right"，同my的含义
+>"top", "center", "bottom", "left", "right"，同my的含义
 
-1.4 <strong>collision</strong>
+### collision
 
-<strong></strong>当被定为元素在某个方向上溢出窗口的位置时，以何种方式重新改变它的位置。
+当被定为元素在某个方向上溢出窗口的位置时，以何种方式重新改变它的位置。default: flip
 
-default: <code>"flip"</code>
 
-<code></code> flip：flip元素到目标的对面一侧，然后继续进行冲突检测知道它符合窗口位置。
+>flip：flip元素到目标的对面一侧，然后继续进行冲突检测知道它符合窗口位置。
 
-fit：让元素远离窗口边界
+>fit：让元素远离窗口边界
 
-flipfit：First applies the flip logic, placing the element on whichever side allows more of the element to be visible. Then the fit logic is applied to ensure as much of the element is visible as possible.
+>flipfit：First applies the flip logic, placing the element on whichever side allows more of the element to be visible. Then the fit logic is applied to ensure as much of the element is visible as possible.
 
-&nbsp;
-
-&nbsp;
 
 通过position可以把一个元素中心和另外一个元素的右上角：
 {% highlight javascript %}

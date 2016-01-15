@@ -10,6 +10,8 @@ categories: tech
 tags:
 - java
 - jce
+- digest
+- hmac
 ---
 
 `hmacsha1`是一种安全摘要算法，不同于MD5和sha1这种摘要算法不同的是，它需要一个密钥参与进行摘要，所以增加了摘要的安全性，目前很多OpenAPI的调用过程中，伴随参数传递的sign值一般都是通过hmacsha1摘要算法利用用户的secure_key对参数体进行摘要。
