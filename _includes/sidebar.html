@@ -5,8 +5,7 @@
   <img src="{{ author.avatar }}" alt="" class="avatar">
   {% endif %}
   <span class="author_name">{{ site.title }}</span>
-  <span class="author_job">{{ author.job }}</span>
-  <span class="author_bio mbm">{{ author.bio }}</span>
+  <span class="author_bio mbm">{{ author.intro }}</span>
   <nav class="nav">
     <ul class="nav-list">
       {% for page in site.pages %} {% if page.title %}
