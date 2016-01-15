@@ -3,7 +3,7 @@ layout: post
 title: "Nginx 反向代理到后端appserver导致cookie丢失的解决办法"
 permalink: nginx-proxy-pass-loss-cookies
 date: 2016-01-15 14:22:44
-comments: true
+comments: false
 description: "nginx proxy pass loss cookies"
 keywords: ""
 categories: tech

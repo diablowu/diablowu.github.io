@@ -3,7 +3,7 @@ layout: post
 title: "Ubuntu Server 12.04 初始化月份字符串出错 的解决方法"
 permalink: ubuntu-format-string-error
 date: 2016-01-14 17:41:22
-comments: true
+comments: false
 description: "ubuntu format string error"
 keywords: ""
 categories: tech

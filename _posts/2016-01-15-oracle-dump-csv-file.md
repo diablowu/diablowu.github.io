@@ -3,7 +3,7 @@ layout: post
 title: "oracle导出csv格式文件的function"
 permalink: oracle-dump-csv-file
 date: 2016-01-15 14:13:34
-comments: true
+comments: false
 description: "oracle dump csv file"
 keywords: ""
 categories: tech

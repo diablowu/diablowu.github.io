@@ -3,7 +3,7 @@ layout: post
 title: "聊聊TCP状态中的CLOSE_WAIT"
 permalink: reason-of-tcp-state-close_wait
 date: 2016-01-15 11:11:11
-comments: true
+comments: false
 description: "reason of tcp state close_wait"
 keywords: ""
 categories: tech

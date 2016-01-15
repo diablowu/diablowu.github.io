@@ -3,7 +3,7 @@ layout: post
 title: "说说NFL美式足球和打仗"
 permalink: similar-of-nfl-and-war-battle
 date: 2016-01-15 09:46:53
-comments: true
+comments: false
 description: "similar of nfl and war battle"
 keywords: ""
 categories: nfl

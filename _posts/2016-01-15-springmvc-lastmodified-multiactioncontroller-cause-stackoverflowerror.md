@@ -3,7 +3,7 @@ layout: post
 title: "springmvc中使用MultiActionController定义lastModified方法可能造成stackoverflowerror"
 permalink: springmvc-lastmodified-multiactioncontroller-cause-stackoverflowerror
 date: 2016-01-15 11:35:06
-comments: true
+comments: false
 description: "springmvc lastModified MultiActionController cause stackoverflowerror"
 keywords: ""
 categories: tech

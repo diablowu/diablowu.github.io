@@ -3,7 +3,7 @@ layout: post
 title: "使用Java JCE实现hmacsha1摘要"
 permalink: hmacsha1-with-java-jce
 date: 2016-01-14 17:34:49
-comments: true
+comments: false
 description: "hmacsha1 with java jce"
 keywords: ""
 categories: tech

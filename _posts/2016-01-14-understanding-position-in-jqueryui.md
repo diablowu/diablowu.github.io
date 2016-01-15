@@ -3,7 +3,7 @@ layout: post
 title: "关于jqueryui 1.10中position定位的理解"
 permalink: understanding-position-in-jqueryui
 date: 2016-01-14 17:48:08
-comments: true
+comments: false
 description: "Understanding position in jqueryui"
 keywords: ""
 categories: tech

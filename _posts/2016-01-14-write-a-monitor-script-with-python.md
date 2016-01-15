@@ -3,7 +3,7 @@ layout: post
 title: "用python实现简单的监控脚本"
 permalink: write-a-monitor-script-with-python
 date: 2016-01-14 11:46:13
-comments: true
+comments: false
 description: "write a monitor script with python"
 keywords: ""
 categories: tech

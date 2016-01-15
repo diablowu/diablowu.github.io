@@ -8,7 +8,10 @@ email: wubo19842008@gmail.com
 description: &des "我是一个混在IT圈有点艺术气质的文艺酷爸爸，疯狂的NFL铁粉，绿湾包装工的奶酪头"
 meta_description: *des
 meta_keywords: "technology, nfl, docker, nodejs, python, java, raspberrypi, angularjs, arduino"
-url:
+# url: "http://diablowu.com"
+product: http://diablowu.com
+
+
 
 #
 ###################################

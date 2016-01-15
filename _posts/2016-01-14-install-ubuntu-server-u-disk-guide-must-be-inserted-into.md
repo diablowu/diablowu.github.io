@@ -3,7 +3,7 @@ layout: post
 title: "u盘安装ubuntu-server必须插入u盘引导的解决办法"
 permalink: install-ubuntu-server-u-disk-guide-must-be-inserted-into
 date: 2016-01-14 17:45:33
-comments: true
+comments: false
 description: "install ubuntu-server U disk guide must be inserted into"
 keywords: ""
 categories: tech

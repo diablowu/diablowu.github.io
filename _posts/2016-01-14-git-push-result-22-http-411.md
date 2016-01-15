@@ -3,7 +3,7 @@ layout: post
 title: "git push时错误提示：RPC failed; result=22, HTTP code = 411"
 permalink: git-push-result-22-http-411
 date: 2016-01-14 17:19:15
-comments: true
+comments: false
 description: "git push result 22 http 411 "
 keywords: ""
 categories: tech
