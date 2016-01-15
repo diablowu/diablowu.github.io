@@ -48,10 +48,9 @@ owner:
   avatar: "http://dbimg.u.qiniudn.com/img/avatar.png"
   intro: |
     新技术的狂热爱好者，会用Java、Node、Python、Ruby、JS敲代码，爱捣鼓点硬件，
-    什么树莓派、Arduino都折腾过，用sharp粉尘传感器做过一个室内粉尘监控设备，
-    还用IR红外接收器学习歌华有线的遥控器然后通过手机控制过电视。目前致力推动Docker
-    的发展，对容器化的未来抱有无限希望。会点安全渗透，脚本小子罢了。最近痴迷NFL，球买了、
-    帽子（不是头盔）买了，就差手套了，估计马上就要投入到这项男人的运动中去。
+    什么树莓派、Arduino都折腾过，用粉尘传感器做过室内粉尘监控，
+    还用红外接收器学习遥控器然后通过手机控制过电视。目前致力推动Docker
+    的发展，对容器化的未来抱有无限希望。会点安全渗透，脚本小子罢了。最近痴迷NFL，估计马上就要投入到这项男人的运动中去。
 
   bio: "Talk is cheap. Show me the code."
   email: wubo19842008@gmail.com

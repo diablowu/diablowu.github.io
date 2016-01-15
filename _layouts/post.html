@@ -27,7 +27,10 @@ layout: default
           {{ page.date | date: "%-d %b %Y" | upcase }}
         </span>
         •
-        {% include read_time.html %}
+        <!-- {% include read_time.html %} -->
+        {% for tag in page.tags %}
+        <a href="/tags/#{{tag}}">{{tag}}</a>
+        {% endfor %}
       </span>
 
     </header>
