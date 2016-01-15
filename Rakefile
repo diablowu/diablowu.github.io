@@ -144,7 +144,7 @@ task :category do
     category.puts "layout: category"
     category.puts "title: \"#{title.gsub(/-/,' ')}\""
     category.puts "slug: #{slug}"
-    category.puts "permalink: /category/#{slug}/"
+    category.puts "permalink: /categories/#{slug}/"
     category.puts "---"
   end
 
